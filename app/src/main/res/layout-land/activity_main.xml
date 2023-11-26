@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_layout_barra_manejadores"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <FrameLayout
+                android:id="@+id/frame_boton_deshacer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_view_deshacer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_deshacer_inactivo" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_boton_manejo_maquina"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_view_manejo_maquina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_maquina_seleccionado" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_boton_manejo_manual"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/image_view_manejo_manual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_sin_maquina_deseleccionado" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_boton_screen_orientation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_screen_rotation" />
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:id="@+id/frame_menu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_menu" />
+            </FrameLayout>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!-- AQUI VA EL BLOQUE DE DOS COLUMNAS -->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/layout_aforo"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="3.5dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/button_aforo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/transparencia"
+                        android:text="@string/texto_inicial_boton_aforo"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:autoSizeMaxTextSize="24dp"
+                        app:autoSizeTextType="uniform" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="3.5dp"
+                    android:layout_marginBottom="3.5dp"
+                    android:layout_weight="4.5">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                        android:padding="7dp">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:paddingLeft="2dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="2dp"
+                                android:text="@string/ahora"
+                                android:textColor="@color/white"
+                                app:autoSizeMaxTextSize="18sp"
+                                app:autoSizeMinTextSize="9dp"
+                                app:autoSizeTextType="uniform" />
+
+                            <TextView
+                                android:id="@+id/numero_viajeros_actuales"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="4"
+                                android:fontFamily="@font/digital_display_tfb"
+                                android:gravity="center"
+                                android:padding="3dp"
+                                android:text="0"
+                                android:textColor="@color/verde_seleccionado_icono"
+                                app:autoSizeTextType="uniform" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/ic_viajeros_3_24" />
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:autoSizeStepGranularity="1dp"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:paddingLeft="2dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="2dp"
+                                android:text="@string/titulo_tv_maximo_viajeros"
+                                android:textColor="@color/white"
+                                app:autoSizeMaxTextSize="16sp"
+                                app:autoSizeMinTextSize="6dp"
+                                app:autoSizeTextType="uniform" />
+
+                            <TextView
+                                android:id="@+id/tv_viajeros_maxima_ocupacion"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:fontFamily="@font/digital_display_tfb"
+                                android:gravity="top|center"
+                                android:padding="3dp"
+                                android:text="0"
+                                android:textColor="@color/rojo_vivo"
+                                app:autoSizeTextType="uniform" />
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                        android:orientation="horizontal"
+                        android:padding="7dp">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:scaleType="centerInside"
+                                    app:srcCompat="@drawable/ic_viajero_sube_24" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="3" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:paddingLeft="2dp"
+                                android:paddingTop="2dp"
+                                android:paddingRight="2dp"
+                                android:text="@string/pueden_subir"
+                                android:textColor="@color/white"
+                                app:autoSizeMaxTextSize="18sp"
+                                app:autoSizeMinTextSize="9dp"
+                                app:autoSizeTextType="uniform" />
+
+                            <TextView
+                                android:id="@+id/numero_pueden_subir"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="4"
+                                android:fontFamily="@font/digital_display_tfb"
+                                android:gravity="center"
+                                android:padding="3dp"
+                                android:text="0"
+                                android:textColor="@color/azul_pueden_subir"
+                                app:autoSizeTextType="uniform" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="3.5dp"
+                    android:layout_weight="2.7"
+                    android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                    android:orientation="vertical"
+                    android:padding="7dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="10dp"
+                            android:rotation="90"
+                            app:srcCompat="@drawable/ic_grafico_barras_24" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:maxLines="1"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/ocupacion"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:ellipsize="end"
+                            android:gravity="right|center_vertical"
+                            android:maxLines="1"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="5dp"
+                            android:text="@string/titulo_tv_ocupacion_actual"
+                            android:textColor="@color/white"
+                            app:autoSizeMaxTextSize="18dp"
+                            app:autoSizeMinTextSize="9dp"
+                            app:autoSizeTextType="uniform" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="6">
+
+                            <ProgressBar
+                                android:id="@+id/pb_ocupacion_ahora"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginBottom="3dp"
+                                android:indeterminate="false"
+                                android:progressDrawable="@drawable/pb_drawable_ocupacion_ahora" />
+
+
+                        </FrameLayout>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/tv_ocupacion_actual_porcentaje"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="2dp"
+                                android:textColor="@color/white"
+                                app:autoSizeMaxTextSize="18dp"
+                                app:autoSizeMinTextSize="9dp"
+                                app:autoSizeTextType="uniform" />
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tv_hora_maxima_ocupacion"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/shape_negro_transparencia_maxima_para_fondo_claro"
+                            android:ellipsize="end"
+                            android:gravity="right|center_vertical"
+                            android:maxLines="1"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:text="@string/titulo_tv_ocupacion_maxima"
+                            android:textColor="@color/white"
+                            app:autoSizeMaxTextSize="30dp"
+                            app:autoSizeMinTextSize="5dp"
+                            app:autoSizeTextType="uniform" />
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:layout_weight="6">
+
+                            <ProgressBar
+                                android:id="@+id/pb_ocupacion_maxima"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginBottom="3dp"
+                                android:indeterminate="false"
+                                android:progressDrawable="@drawable/pb_drawable_ocupacion_maxima" />
+
+                        </FrameLayout>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2">
+
+                            <TextView
+                                android:id="@+id/tv_ocupacion_maxima_porcentaje"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/white"
+                                app:autoSizeMaxTextSize="30dp"
+                                app:autoSizeMinTextSize="5dp"
+                                app:autoSizeTextType="uniform" />
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="3.5dp"
+                    android:layout_weight="2.5">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/layout_tramo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_stroke_lila_contorno_separador_views">
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/iv_ic_inicio_tramo"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/ic_tramo_deseleccionado" />
+
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="center|left"
+                            android:maxLines="1"
+                            android:text="@string/tituo_cambio_tramo"
+                            android:textColor="@color/white"
+                            app:autoSizeMaxTextSize="18dp"
+                            app:autoSizeMinTextSize="9dp"
+                            app:autoSizeTextType="uniform" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/layout_nuevo_viaje"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_stroke_lila_contorno_separador_views">
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/ic_viaje" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="7dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="center|left"
+                            android:maxLines="1"
+                            android:text="@string/textview_icono_nuevo_viaje"
+                            android:textColor="@color/white"
+                            app:autoSizeMaxTextSize="18dp"
+                            app:autoSizeMinTextSize="9dp"
+                            app:autoSizeTextType="uniform" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="3.5dp"
+                    android:layout_marginBottom="3.5dp"
+                    android:layout_weight="1.6">
+
+                    <!-- AQUI VA EL AVISO DE "HAY VIAJEROS DEL ANTERIOR VIAJE"  -->
+                    <!--SE USARA PARA TODOS LOS RESTANTES AVISOS -->
+                    <!-- Necesario el cardview para dar cornerRadius al TextView en cualquier version android -->
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardview_fondo_avisos"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="7dp">
+
+                        <TextView
+                            android:id="@+id/text_view_avisos_viaje"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/black"
+                            android:ellipsize="start"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            app:autoSizeMaxTextSize="24dp"
+                            app:autoSizeTextType="uniform" />
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="3.5dp"
+                    android:layout_weight="5">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="7dp">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/iv_ic_suben"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_group_add_blanco" />
+
+                            <TextView
+                                android:id="@+id/textview_ultimo_cambio_suben"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="2dp"
+                                android:text="@string/actualiza_suben"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                app:autoSizeMaxTextSize="18sp"
+                                app:autoSizeMinTextSize="9dp"
+                                app:autoSizeTextType="uniform" />
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4">
+
+                            <!-- a este framelayout quitarle el paddind arriba y abajo, pero dejar el izq y dcho
+                             para que mantenga proporción para el texview en la maquina...
+                             y con los 30dp que sobran poner el textview de "hay masbilletes", justo debajo-->
+                            <FrameLayout
+                                android:id="@+id/frame_boton_suben"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="15dp">
+
+                                <!-- el wrap content en el icono en teoria es para que guarde la forma al
+                                escalar la imagen en el match parent-->
+
+                                <ImageView
+                                    android:id="@+id/image_boton_suben_maquina"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:alpha="1"
+                                    app:srcCompat="@drawable/ic_icono_suben_maquina" />
+
+                                <ImageView
+                                    android:id="@+id/image_boton_suben_manual"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginEnd="16dp"
+                                    android:alpha="0"
+                                    app:srcCompat="@drawable/ic_boton_suben_manual" />
+
+                                <!-- este linearlayout coloca el numero de billetes de maquina en su lugar -->
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.appcompat.widget.LinearLayoutCompat
+                                        android:id="@+id/linear_weight_izquierda_maquina"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="31" />
+
+                                    <androidx.appcompat.widget.LinearLayoutCompat
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="20"
+                                        android:orientation="vertical">
+
+                                        <FrameLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="16" />
+
+                                        <FrameLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="20">
+
+                                            <TextView
+                                                android:id="@+id/numero_total_suben_maquina"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:background="@drawable/shape_relleno_textview_maquina"
+                                                android:gravity="right"
+                                                android:maxLines="1"
+                                                android:rotation="-6"
+                                                android:text="0"
+                                                android:textColor="@color/black"
+                                                android:textStyle="bold"
+                                                app:autoSizeMaxTextSize="18dp"
+                                                app:autoSizeTextType="uniform" />
+                                        </FrameLayout>
+
+                                        <FrameLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="32" />
+                                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                    <androidx.appcompat.widget.LinearLayoutCompat
+                                        android:id="@+id/linear_weight_derecha_maquina"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="20" />
+
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                <!-- este linearlayout es para colocar el textview de subenmanual -->
+                                <androidx.appcompat.widget.LinearLayoutCompat
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <androidx.appcompat.widget.LinearLayoutCompat
+                                        android:id="@+id/linear_weight_izquierda_manual"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="12" />
+
+                                    <androidx.appcompat.widget.LinearLayoutCompat
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="16"
+                                        android:orientation="vertical">
+
+                                        <FrameLayout
+                                            android:id="@+id/frame_superior_billetesmanual"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="18" />
+
+                                        <FrameLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="20">
+
+                                            <androidx.appcompat.widget.LinearLayoutCompat
+                                                android:id="@+id/linear_numero_billetes_manual"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:alpha="0"
+                                                android:gravity="center"
+                                                android:rotation="-3">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginEnd="5dp"
+                                                    android:layout_weight="1"
+                                                    app:srcCompat="@drawable/ic_sin_maquina_hay_mas_billetes"
+                                                    app:tint="@color/black" />
+
+                                                <TextView
+                                                    android:id="@+id/tv_num_billetes_manual"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="1.3"
+                                                    android:gravity="center"
+                                                    android:maxLines="1"
+                                                    android:paddingRight="3dp"
+                                                    android:textColor="@color/black"
+                                                    android:textStyle="bold"
+                                                    app:autoSizeMaxTextSize="18dp"
+                                                    app:autoSizeTextType="uniform" />
+
+                                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                        </FrameLayout>
+
+                                        <FrameLayout
+                                            android:id="@+id/frame_inf_billetesmanual"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_weight="25" />
+                                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                                    <androidx.appcompat.widget.LinearLayoutCompat
+                                        android:id="@+id/linear_weight_derecha_manual"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="10" />
+
+                                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            </FrameLayout>
+
+                        </FrameLayout>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:id="@+id/layout_hay_mas_billetes"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8"
+                            android:alpha="0"
+                            android:gravity="end|center_vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_ic_hay_mas_billetes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                app:srcCompat="@drawable/ic_maquina_hay_mas_billetes" />
+
+                            <TextView
+                                android:id="@+id/tv_hay_mas_billetes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                app:autoSizeMaxTextSize="18dp"
+                                app:autoSizeMinTextSize="16dp"
+                                app:autoSizeTextType="uniform" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <!-- este textview es para el totalsuben, es nuevo -->
+                        <TextView
+                            android:id="@+id/tv_total_suben"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8"
+                            android:alpha="0"
+                            android:ellipsize="start"
+                            android:gravity="end"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:autoSizeMaxTextSize="18sp"
+                            app:autoSizeMinTextSize="9dp"
+                            app:autoSizeTextType="uniform" />
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="3.5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                        android:orientation="vertical"
+                        android:padding="7dp">
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:id="@+id/iv_ic_bajan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/ic_group_remove_blanco" />
+
+                            <TextView
+                                android:id="@+id/textview_ultimo_cambio_bajan"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="2dp"
+                                android:text="@string/actualiza_bajan"
+                                android:textColor="@color/white"
+                                android:textStyle="bold"
+                                app:autoSizeMaxTextSize="18sp"
+                                app:autoSizeMinTextSize="9dp"
+                                app:autoSizeTextType="uniform" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <ImageView
+                            android:id="@+id/boton_bajan_fragmcontviaje_imageview"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="31dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_weight="4"
+                            android:src="@drawable/boton_bajan" />
+
+                        <FrameLayout
+                            android:id="@+id/frame_vacio_sobre_tv_total_bajan"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8" />
+
+
+                        <TextView
+                            android:id="@+id/tv_numero_total_bajan"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8"
+                            android:alpha="0"
+                            android:ellipsize="start"
+                            android:gravity="end"
+                            android:singleLine="true"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            app:autoSizeMaxTextSize="18sp"
+                            app:autoSizeMinTextSize="9dp"
+                            app:autoSizeTextType="uniform" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--HASTA AQUI EL BLOQUE DE 2 COLUMNAS-->
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>

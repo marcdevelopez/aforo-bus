@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:tint="@color/gris_deseleccionado_icono"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:pathData="M4.83,3.797V20.2435"
+        android:strokeWidth="2"
+        android:strokeColor="#000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="M11.9956,3.797V7.9796"
+        android:strokeWidth="2"
+        android:strokeColor="#000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="M11.9956,9.948V14.1307"
+        android:strokeWidth="2"
+        android:strokeColor="#000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="m11.9956,16.0743v4.1826"
+        android:strokeWidth="2"
+        android:strokeColor="#000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="m19.1929,3.797v9.257"
+        android:strokeWidth="2"
+        android:strokeColor="#000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="m15.0892,19.202 l8.2075,-0.0002"
+        android:strokeWidth="2"
+        android:strokeColor="#000000"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="miter" />
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="m20.423,16.2172a1.2311,1.2311 0,0 1,-1.181 1.2789,1.2311 1.2311,0 0,1 -1.2793,-1.1806 1.2311,1.2311 0,0 1,1.1802 -1.2796,1.2311 1.2311,0 0,1 1.28,1.1798L19.1929,16.266Z" />
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="m20.423,22.1834a1.2311,1.2311 0,0 1,-1.181 1.2789,1.2311 1.2311,0 0,1 -1.2793,-1.1806 1.2311,1.2311 0,0 1,1.1802 -1.2796,1.2311 1.2311,0 0,1 1.28,1.1798l-1.2301,0.0503z" />
+</vector>

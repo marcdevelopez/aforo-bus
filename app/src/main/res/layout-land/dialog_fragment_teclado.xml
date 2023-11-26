@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_grantotal_teclado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <!-- vertical con textview y linear horizontal-->
+    <TextView
+        android:id="@+id/textview_titulo_dialogo_teclado"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/digital_display_tfb"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textColor="@color/white"
+        app:autoSizeTextType="uniform" />
+    <!-- horizontal: con teclado y display -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_contenedor_teclado"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear_botones_linea1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tecla1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <FrameLayout
+                        android:id="@+id/frame_tecla_corregir_retroceso"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/shape_fondo_tecla_kitkat" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="7dp"
+                            app:srcCompat="@drawable/ic_rectificar_24" />
+                    </FrameLayout>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tecla4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tecla7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla9"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform" />
+
+                    <TextView
+                        android:id="@+id/tecla_corregir_c"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_fondo_tecla_kitkat"
+                        android:gravity="center"
+                        android:text="C"
+                        android:textColor="@color/rojo_vivo"
+                        app:autoSizeTextType="uniform" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_contenedor_display_teclado"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/text_view_resultado_teclado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/digital_display_tfb"
+                    android:gravity="right"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:background="@drawable/shape_stroke_lila_contorno_separador_views"
+                    android:textColor="@color/verde_seleccionado_icono"
+                    app:autoSizeTextType="uniform" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <Button
+                    android:id="@+id/textview_aceptar_dialog_teclado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/aceptar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/verde_texto_dialog_enfondooscuro"
+                    android:textSize="22dp" />
+
+                <Button
+                    android:id="@+id/textview_cancelar_dialog_teclado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/cancelar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/verde_texto_dialog_enfondooscuro"
+                    android:textSize="22dp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

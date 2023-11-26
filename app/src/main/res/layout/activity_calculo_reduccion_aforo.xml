@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CalculoReduccionAforo">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/digital_display_tfb"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:text="@string/reduccion_de_aforo"
+        android:textColor="@color/white"
+        app:autoSizeMaxTextSize="30dp"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="254dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_relleno_blanco_fondo_placa_aforo">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_sin_fondo_marco_reduccion_aforo">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/sentados" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_relleno_blanco_fondo_placa_aforo">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_sin_fondo_marco_reduccion_aforo">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/en_pie" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </FrameLayout>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_en_pie_marco_reduccion_aforo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/sentados_textview"
+                    android:textColor="@color/black"
+                    app:autoSizeMaxTextSize="18dp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/text_view_aforo_teorico_sentados"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="29"
+                    android:textColor="@color/black"
+                    app:autoSizeMaxTextSize="38sp"
+                    app:autoSizeTextType="uniform" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_en_pie_marco_reduccion_aforo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/en_pie_textview"
+                    android:textColor="@color/black"
+                    app:autoSizeMaxTextSize="18dp"
+                    app:autoSizeTextType="uniform" />
+
+                <TextView
+                    android:id="@+id/text_view_aforo_teorico_en_pie"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="64"
+                    android:textColor="@color/black"
+                    app:autoSizeMaxTextSize="38sp"
+                    app:autoSizeTextType="uniform" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_azul_sentado_marco_reduccion_aforo">
+
+                <TextView
+                    android:id="@+id/text_view_porcentaje_sentados"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="100 %"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:autoSizeMaxTextSize="30dp"
+                    app:autoSizeTextType="uniform" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape_azul_sentado_marco_reduccion_aforo">
+
+                <TextView
+                    android:id="@+id/text_view_porcentaje_en_pie"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="100 %"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:autoSizeMaxTextSize="30dp"
+                    app:autoSizeTextType="uniform" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="254dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_stroke_lila_contorno_separador_views">
+
+        <TextView
+            android:id="@+id/tv_texto_total_del_aforo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="3"
+            android:gravity="right|center_vertical"
+            android:maxLines="1"
+            android:text="@string/total_de_aforo_reducido"
+            android:textColor="@color/white"
+            app:autoSizeMaxTextSize="30dp"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/text_view_numero_total_aforo_reducido"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/digital_display_tfb"
+            android:gravity="center"
+            android:text="93"
+            android:textColor="@color/verde_seleccionado_icono"
+            app:autoSizeTextType="uniform" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/text_view_cancelar_reduccion_aforo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:maxLines="1"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:text="@string/cancelar"
+            android:textColor="@color/verde_texto_dialog_enfondooscuro"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/button_aceptar_reduccion_aforo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:maxLines="1"
+            android:text="@string/aceptar"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:textColor="@color/verde_texto_dialog_enfondooscuro"
+            android:textSize="22dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

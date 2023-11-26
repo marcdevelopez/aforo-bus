@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MiAforoBus" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gris_shape_fondo</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- ANIMACIONES -->
+
+    <!-- VIAJEROS -->
+    <style name="AnimacionDialogoTecladoViajeros">
+        <item name="android:windowEnterAnimation">@anim/crece_desde_viajeros_actuales</item>
+        <item name="android:windowExitAnimation">@anim/decrece_hacia_viajeros_actuales</item>
+    </style>
+
+    <style name="LandAnimacionDialogoTecladoViajeros">
+        <item name="android:windowEnterAnimation">@anim/land_crece_desde_viajeros_actuales</item>
+        <item name="android:windowExitAnimation">@anim/land_decrece_hacia_viajeros_actuales</item>
+    </style>
+
+    <!-- MÁQUINA -->
+    <style name="AnimacionDialogoTecladoMaquina">
+        <item name="android:windowEnterAnimation">@anim/crece_desde_maquina</item>
+        <item name="android:windowExitAnimation">@anim/decrece_hacia_maquina</item>
+    </style>
+
+    <style name="LandAnimacionDialogoTecladoMaquina">
+        <item name="android:windowEnterAnimation">@anim/land_crece_desde_maquina</item>
+        <item name="android:windowExitAnimation">@anim/land_decrece_hacia_maquina</item>
+    </style>
+
+    <!-- TRAMO -->
+    <style name="AnimacionDialogoTecladoTramo">
+        <item name="android:windowEnterAnimation">@anim/crece_desde_tramo</item>
+        <item name="android:windowExitAnimation">@anim/decrece_hacia_tramo</item>
+    </style>
+
+    <style name="LandAnimacionDialogoTecladoTramo">
+        <item name="android:windowEnterAnimation">@anim/land_crece_desde_tramo</item>
+        <item name="android:windowExitAnimation">@anim/land_decrece_hacia_tramo</item>
+    </style>
+
+    <!-- MENU -->
+    <style name="AnimacionMenuAjustes">
+        <item name="android:windowEnterAnimation">@anim/entraporla_der</item>
+        <item name="android:windowExitAnimation">@anim/sevaporla_der</item>
+    </style>
+
+    <!-- ESTILOS PERSONALIZADOS -->
+
+</resources>

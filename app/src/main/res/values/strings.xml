@@ -1,0 +1,192 @@
+<resources>
+
+    <!-- ESTE SERÁ EL LENGUAJE POR DEFECTO, INGLÉS -->
+
+    <string name="app_name">My Bus Capacity</string>
+
+    <string name="actualiza_suben">Update getting on</string>
+    <string name="actualiza_bajan">Update getting off</string>
+    <string name="suben">get on %1$d</string>
+    <string name="sube">gets on %1$d</string>
+    <string name="bajan">get off %1$d</string>
+    <string name="baja">gets off %1$d</string>
+    <string name="pueden_subir">Can board</string>
+    <string name="textview_icono_nuevo_viaje">Trip</string>
+    <string name="continuar">Continue</string>
+    <string name="aceptar">Agree</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="cancelar">Cancel</string>
+    <string name="cerrar">Close</string>
+    <string name="toast_abort_reset">No change was made</string>
+    <string name="no_volver_a_mostrar">Don\'t show again</string>
+    <string name="cantidad_la_misma_no_hubo_cambios">The amount is the same.
+        \nNo change was made</string>
+
+    <!-- MENU -->
+    <string name="pantalla_horizontal">Landscape screen</string>
+    <string name="ajustes">Settings</string>
+    <string name="politica_privacidad">Privacy Policy</string>
+    <string name="ayuda">Help</string>
+    <string name="ocultar_barra_estado">Hide status bar</string>
+
+    <!-- TECLADO DIALOGO -->
+    <string name="no_introdujiste_nada">You didn\'t enter anything, please try again</string>
+    <string name="excedido_limite_viajeros">Think before you type</string>
+    <!-- DESHACER -->
+    <string name="mensaje_alertdialog_deshacer">Do you want to undo this last change?</string>
+    <string name="no_hubo_cambios">No change was made</string>
+    <string name="viajeros_con_barra_s">traveler/s</string>
+
+    <!-- VIAJEROS ACTUALES -->
+    <string name="ahora">now</string>
+    <string name="titulo_dialogo_teclado_reset_viajeros">Reset number of Travelers</string>
+    <string name="viajeros_es_superior_al_aforo_alertdialog_warning">This number of travelers is
+        higher than the established capacity</string>
+    <string name="aun_no_hay_billetes_vendidos_agrega_billetes">You have not entered travelers yet.
+        Add travelers first. If you don\'t want them to appear on the machine: Update getting on
+        "without machine" by activating the upper tab for getting on travelers without a machine.
+    </string>
+    <string name="cantidad_viajeros_mayor_a_billetes">The number of travelers is greater than the number
+     of tickets</string>
+    <string name="messaje_dialgo_has_actualizado_billetes_maquina">Have you updated the total
+     machine tickets?</string>
+    <string name="reset_viajeros_actuales_item_menu_contextual">Reset Current Travelers </string>
+    <string name="titulo_alert_dialog_reset_viajeros_explicacion">You will reset Current Travelers.\nNo
+         will change Ticket Machine</string>
+    <!-- RESET VIAJEROS -->
+    <string name="viajeros_sin_billete_revisa_billetes_y_vuelve_aqui">You have a total of\n%1$d
+         tickets sold.\nIf you reset the number of travelers to %2$d,\nyou will have %3$d traveler/s
+     without a ticket,\nthat you will have to download or pay for a ticket.\n\n Check the total number of tickets and
+         return here if the number of travelers is equal to or less than the total number of tickets.</string>
+    <!-- NUEVO VIAJE -->
+    <string name="toast_restablecimiento_exitoso">Reset successful</string>
+    <string name="comienza_nuevo_viaje">A new journey has begun</string>
+    <string name="iniciar_viaje_en_maquina">Start new Trip in Ticket Machine</string>
+    <string name="titulo_alertdialog_nuevo_viaje_billetesmaquina_a_cero">A NEW JOURNEY will start. The
+         machine tickets will be zero.</string>
+    <string name="mensaje_dialog_continuaran_viajeros">Will the current %1$d travelers continue?</string>
+    <!-- TRAMO -->
+    <string name="tituo_cambio_tramo">section</string>
+    <string name="mensaje_alertdialog_tramo">YOU WILL REDUCE THE AMOUNT OF TICKETS IN THE MACHINE, but
+         you will continue with the SAME TRIP and the SAME TRAVELERS</string>
+    <string name="alert_dialog_dato_teclado_incorrecto_tramo">When changing sections there are fewer tickets
+         machine and you have inserted more banknotes into the machine than there were.
+         Enter the data again or click on the Update Upload machine icon, if what
+         you want
+         is to add more bills in machine</string>
+    <string name="cambio_de_tramo_con_exito">Leg change successfully</string>
+    <string name="titulo_dialogo_teclado_billetes_maquina_tramo">Update Leg Tickets</string>
+    <!-- OCUPACION -->
+    <string name="titulo_tv_ocupacion_actual">now</string>
+    <string name="titulo_tv_ocupacion_maxima">max</string>
+    <string name="titulo_tv_maximo_viajeros">max</string>
+    <string name="titulo_layout_ocupacion">Occupation</string>
+    <string name="tv_porcenaje_ocu_actual">%1$d %%</string>
+    <string name="tv_porcenaje_ocu_max">%1$d %%</string>
+    <!-- MÁQUINA -->
+    <string name="actualizaste_la_maquina_de">did you update the machine</string>
+    <string name="a">to</string>
+    <string name="lo_que_aumento_el_numero_de_viajeros_en">, which increased the number of travelers
+         in</string>
+    <string name="por_eso_ahora_hay">. That\'s why now there is</string>
+    <string name="alert_dialog_introducida_cantidad_inferior_nuevo_viaje">The amount entered is
+         lower than the previous one on the machine. Do you want to start a new journey?</string>
+    <string name="boton_alert_dialog_nuevo_viaje">new trip</string>
+    <string name="alert_dialog1_deseas_sumar_viajeros">Do you want to add this number of travelers to the
+         Current Travelers?</string>
+    <string name="alert_dialog2_los_viajeros_actuales_son">Current travelers are:</string>
+    <string name="alert_dialog3_y_si_suma_seran">and if you add them they will be:</string>
+    <string name="se_han_sumado_los_viajeros_de_la_maquina">The number of
+         machine passengers to previous passengers</string>
+    <string name="titulo_dialogo_teclado_actualiza_billetes_maquina">Update Machine Tickets</string>
+    <string name="aforo_excedido_dialogo_teclado_suben_maquina">They can upload %1$d traveler/s.
+        You would exceed the capacity by %2$d traveler</string>
+    <string name="dialog_esta_completo_no_pueden_subir_mas">Is complete. they can\'t go up anymore
+         Travellers.</string>
+    <string name="reset_maquina_item_menu_contextual">Reset Banknotes Machine</string>
+    <string name="titulo_alert_dialog_reset_maquina_explicacion">You will reset Ticket Machine.\nNo
+         will change Current Travelers</string>
+    <string name="titulo_teclado_resetea_maquina">Reset Machine Bills</string>
+    <!-- SUBEN MANUAL -->
+    <string name="aniadiste">you added</string>
+    <string name="viajeros_no_incluidos_en_maquina">traveler/s with manual ticket.</string>
+    <string name="toast_post_alert_dialog_no_actualizo_cantidad">The machine was not updated nor the
+         Travellers</string>
+    <string name="selecciona_cuantos_suben">Select how many upload</string>
+    <string name="titulo_dialog_cada_tecla_es_una_cantidad">Each key is a number of travelers</string>
+    <string name="mensaje_dialog_se_iran_sumando_cantidades">Every time you press a button you will go
+         adding the amount chosen to the total in green (above, second line). When
+         When you finish adding, press the \"close the door\" icon (bottom right) and the
+         total to current travelers. You can delete the last amount selected by pressing the icon
+         \"corrector\" (bottom left).</string>
+    <string name="presiona_rectificar_aun_no_seleccionaste_nada">There are no quantities</string>
+
+    <!-- SUBEN -->
+    <string name="total_suben_viaje">Total: %1$d</string>
+    <!-- BAJAN -->
+    <string name="bajaron">they went down</string>
+    <string name="no_pueden_bajar_mas_de_los_viajeros_que_hay">There are only %1$d travellers, they cannot
+         lower %2$d traveler/s.\n Check the tickets in the machine, or count the travelers, could
+         There may be an error counting the downloads.</string>
+    <string name="no_hay_viajeros_comprueba_la_maquina">There are no travelers. If the data is wrong,
+         you may need to UPDATE THE TICKETS IN THE MACHINE.</string>
+    <string name="selecciona_una_cantidad">Select an amount</string>
+    <string name="bajan_en_total">Total: %1$d</string>
+    <!-- LISTA DE CAMBIOS-->
+    <string name="hora">Time</string>
+    <string name="movimiento">Motion</string>
+    <string name="viajeros">Travellers</string>
+    <string name="ocupacion">Occupation</string>
+    <string name="billete">Ticket</string>
+    <string name="historico_del_viaje">Trip history</string>
+    <string name="total_viajeros_del_viaje_actual">Total Travelers on last trip: %1$d</string>
+    <string name="total_viajeros_del_viaje_anterior">Total Travelers on previous trip: %1$d</string>
+    <string name="tv_viaje_anterior">PREVIOUS TRIP</string>
+    <string name="tv_viaje_actual">LAST TRIP</string>
+    <string name="no_existe">Does not exist</string>
+    <string name="hoy">Today</string>
+    <string name="ayer">Yesterday</string>
+    <string name="switch_mostrar_anterior_viaje">show previous trip</string>
+    <!-- AFORO -->
+    <string name="texto_inicial_boton_aforo">Capacity of 93</string>
+    <string name="aforo_menor_a_viajeros_alertdialog_warning">Too many travelers to set
+     the chosen capacity</string>
+    <!-- REDUCCION DE AFORO -->
+    <string name="reduccion_de_aforo">Configure the Capacity</string>
+    <string name="reducir_aforo">Reduce Capacity</string>
+    <string name="total_de_aforo">Total Capacity:</string>
+    <string name="total_de_aforo_reducido">Total Aforo Reducido:</string>
+    <string name="sentados_textview">sitting</string>
+    <string name="en_pie_textview">Standing</string>
+    <string name="establece_aforo_teorico_sentado">Establishes the seated capacity</string>
+    <string name="establece_aforo_teorico_en_pie">Establishes the capacity STANDING</string>
+    <string name="establece_porcentaje_sentado">Sets the percentage SITTING</string>
+    <string name="establece_porcentaje_en_pie">Sets the percentage STANDING</string>
+    <string name="aforo_no_puede_ser_0">Capacity cannot be 0!</string>
+    <string name="aforo_guardado">saved capacity</string>
+    <string name="onbackpressed_pulsa_aceptar_o_cancelar">Press Cancel or OK to exit</string>
+    <!-- AVISOS VARIOS -->
+    <string name="hay_viajeros_del_viaje_anterior">Travelers without a ticket: %1$d</string>
+    <string name="en_este_viaje_hay_viajeros_con_billete_manual">Travelers with manual ticket: %1$d</string>
+    <string name="completo">FULL</string>
+
+    <string name="presiona_atras_para_salir">Press back button to exit</string>
+    <string name="contentview_icono_atras">undo the last change if possible</string>
+    <string name="contentview_icono_modo_maquina">set count with ticket vending machine</string>
+    <string name="contentview_icono_modo_sin_maquina">sets the count of passenger boarding without a ticket machine</string>
+    <string name="contentview_icono_rotacion_pantalla">change screen orientation</string>
+    <string name="contentview_icono_menu">open options menu</string>
+    <string name="_0">0</string>
+    <string name="contentdescription_icono_viajeros_en_bus">The travelers who have boarded the bus and the maximum number of travelers up to this moment will appear here</string>
+    <string name="contentdescription_icono_pueden_Subir">here the number of travelers that can go up will be shown</string>
+    <string name="contentdescription_icono_graficos_ocupacion">current traveler percentages and maximum occupancy to date are shown</string>
+    <string name="contentdescription_icono_tramo">add a section to be able to know which travelers are left with a ticket according to the distance that remains until the end of the trip</string>
+    <string name="contentdescription_icono_vuelta_viaje">sets the end of the trip with the possibility of starting a new trip</string>
+    <string name="contentdescription_icono_actualiza_suben">the number of passengers boarding at each moment is established here</string>
+    <string name="contentdescription_boton_máquina">by clicking on this machine icon you can establish the current number of banknotes in the machine</string>
+    <string name="contentdescription_botón_subida_manual">the keyboard opens to add travelers without a ticket</string>
+    <string name="contentdescription_icono_hay_mas_viajeros_sin_billete">the number of travelers without a ticket is shown in addition to the travelers with a machine ticket</string>
+    <string name="contentdescription_icono_actualiza_viajeros_que_bajan">keyboard opens to establish the number of passengers who get off at this stop</string>
+
+</resources>

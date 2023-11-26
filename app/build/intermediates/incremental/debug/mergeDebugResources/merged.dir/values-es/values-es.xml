@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="_0">0</string>
+    <string name="a">a</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="actualiza_bajan">Actualiza Bajan</string>
+    <string name="actualiza_suben">Actualiza Suben</string>
+    <string name="actualizaste_la_maquina_de">Actualizaste la máquina de</string>
+    <string name="aforo_excedido_dialogo_teclado_suben_maquina">Pueden subir %1$d viajero/s.
+        Excederías el aforo en %2$d viajero/s.</string>
+    <string name="aforo_guardado">Aforo guardado</string>
+    <string name="aforo_menor_a_viajeros_alertdialog_warning">Demasiados viajeros para establecer
+    el aforo elegido</string>
+    <string name="aforo_no_puede_ser_0">¡El Aforo no puede ser 0!</string>
+    <string name="ahora">ahora</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="alert_dialog1_deseas_sumar_viajeros">¿Deseas sumar esta cantidad de viajeros a los
+        Viajeros Actuales?</string>
+    <string name="alert_dialog2_los_viajeros_actuales_son">Los viajeros actuales son:</string>
+    <string name="alert_dialog3_y_si_suma_seran">y si los suma serán:</string>
+    <string name="alert_dialog_dato_teclado_incorrecto_tramo">Al cambiar de tramo hay menos billetes
+        en máquina y has introducido más billetes en máquina que los que había.
+        Vuelve a introducir el dato o pulsa sobre el icono Actualiza Suben de máquina, si lo que
+        deseas
+        es añadir más billetes en máquina</string>
+    <string name="alert_dialog_introducida_cantidad_inferior_nuevo_viaje">La cantidad introducida es
+        inferior a la anterior en la máquina. ¿Deseas iniciar un nuevo viaje?</string>
+    <string name="aniadiste">Añadiste</string>
+    <string name="app_name">Mi Aforo Bus</string>
+    <string name="aun_no_hay_billetes_vendidos_agrega_billetes">Aún no has ingresado viajeros. Añade
+        primero viajeros. Si no deseas que aparezan en máquina Actualiza Suben "sin máquina"
+        activando la pestaña superior para la subida de viajeros sin máquina.</string>
+    <string name="ayer">Ayer</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="baja">baja %1$d</string>
+    <string name="bajan">bajan %1$d</string>
+    <string name="bajan_en_total">Total: %1$d</string>
+    <string name="bajaron">Bajaron</string>
+    <string name="billete">Billete</string>
+    <string name="boton_alert_dialog_nuevo_viaje">nuevo viaje</string>
+    <string name="cambio_de_tramo_con_exito">Cambio de Tramo con éxito</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cantidad_la_misma_no_hubo_cambios">La cantidad es la misma.
+        \nNo se realizó ningún cambio</string>
+    <string name="cantidad_viajeros_mayor_a_billetes">La cantidad de viajeros es mayor que el número
+    de billetes</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="comienza_nuevo_viaje">Se ha comenzado un nuevo viaje</string>
+    <string name="completo">COMPLETO</string>
+    <string name="contentdescription_boton_máquina">pulsando en este icono de máquina se podrá establecer el número actual de billetes en máquina</string>
+    <string name="contentdescription_botón_subida_manual">se abre el teclado para añadir viajeros sin billete</string>
+    <string name="contentdescription_icono_actualiza_suben">se establece aquí el número de viajeros que suben en cada momento</string>
+    <string name="contentdescription_icono_actualiza_viajeros_que_bajan">se abre teclado para establecer el número de viajeros que bajan en esta parada</string>
+    <string name="contentdescription_icono_graficos_ocupacion">se muestran los porcentajes de viajeros actuales y la máxima ocupación hasta este momento</string>
+    <string name="contentdescription_icono_hay_mas_viajeros_sin_billete">se muestra el número de viajeros sin billete además de los viajeros con billete de máquina</string>
+    <string name="contentdescription_icono_pueden_Subir">aqui se mostrará el número de viajeros que pueden subir</string>
+    <string name="contentdescription_icono_tramo">añade un tramo para poder saber qué viajeros quedan con billete según la distancia que queda hasta el fin del viaje</string>
+    <string name="contentdescription_icono_viajeros_en_bus">aqui aparecerán los viajeros que han subido y el máximo de viajeros hasta este momento</string>
+    <string name="contentdescription_icono_vuelta_viaje">establece el fin del viaje con posibilidad de iniciar un nuevo viaje</string>
+    <string name="contentview_icono_atras">deshace el ultimo cambio si es posible</string>
+    <string name="contentview_icono_menu">abre el menú de opciones</string>
+    <string name="contentview_icono_modo_maquina">establece el conteo con máquina expendedora de billetes</string>
+    <string name="contentview_icono_modo_sin_maquina">establece el conteo de las subidas de viajero sin máquina expendedora de billetes</string>
+    <string name="contentview_icono_rotacion_pantalla">cambia la orientación de la pantalla</string>
+    <string name="continuar">Continuar</string>
+    <string name="dialog_esta_completo_no_pueden_subir_mas">Está COMPLETO. Ya no pueden subir más
+        viajeros.</string>
+    <string name="en_este_viaje_hay_viajeros_con_billete_manual">Viajeros con billete manual: %1$d</string>
+    <string name="en_pie_textview">En Pie</string>
+    <string name="establece_aforo_teorico_en_pie">Establece el aforo EN PIE</string>
+    <string name="establece_aforo_teorico_sentado">Establece el aforo SENTADO</string>
+    <string name="establece_porcentaje_en_pie">Establece el porcentaje EN PIE</string>
+    <string name="establece_porcentaje_sentado">Establece el porcentaje SENTADO</string>
+    <string name="excedido_limite_viajeros">Piensa antes de teclear</string>
+    <string name="hay_viajeros_del_viaje_anterior">Viajeros sin billete: %1$d</string>
+    <string name="historico_del_viaje">Historico del Viaje</string>
+    <string name="hora">Hora</string>
+    <string name="hoy">Hoy</string>
+    <string name="iniciar_viaje_en_maquina">Iniciar nuevo Viaje en Máquina de Billetes</string>
+    <string name="lo_que_aumento_el_numero_de_viajeros_en">, lo que aumentó el número de viajeros
+        en</string>
+    <string name="mensaje_alertdialog_deshacer">¿Deseas deshacer este último cambio?</string>
+    <string name="mensaje_alertdialog_tramo">REDUCIRÁS la cantidad de BILLETES EN MÁQUINA, pero
+        continuarás con el MISMO VIAJE y los MISMOS VIAJEROS</string>
+    <string name="mensaje_dialog_continuaran_viajeros">¿Continuarán los %1$d viajeros actuales?</string>
+    <string name="mensaje_dialog_se_iran_sumando_cantidades">Cada vez que pulses un botón irás
+        sumando la cantidad elegida al total en color verde (arriba, segunda linea). Cuando
+        termines de sumar pulsa el icono \"cerrar la puerta\" (abajo a la derecha) y se añadirá el
+        total a los viajeros actuales. Puedes borrar la última cantidad seleccionada pulsando el icono
+        \"corrector\" (abajo a la izquierda).</string>
+    <string name="messaje_dialgo_has_actualizado_billetes_maquina">¿Has actualizado el número de
+    billetes de la máquina?</string>
+    <string name="movimiento">Movimiento</string>
+    <string name="no">No</string>
+    <string name="no_existe">No existe</string>
+    <string name="no_hay_viajeros_comprueba_la_maquina">No quedan viajeros. Si el dato es erróneo,
+        posiblemente debas ACTUALIZAR LOS BILLETES EN MÁQUINA.</string>
+    <string name="no_hubo_cambios">No se realizó ningún cambio</string>
+    <string name="no_introdujiste_nada">No introdujiste nada, inténtalo de nuevo</string>
+    <string name="no_pueden_bajar_mas_de_los_viajeros_que_hay">Solo hay %1$d viajero/s, no puede/n
+        bajar %2$d viajero/s.\n   Revisa los billetes en máquina, o recuenta los viajeros, pudo
+        haber un error al contar las bajadas.</string>
+    <string name="no_volver_a_mostrar">No volver a mostrar</string>
+    <string name="ocultar_barra_estado">Ocultar barra de estado</string>
+    <string name="ocupacion">Ocupación</string>
+    <string name="onbackpressed_pulsa_aceptar_o_cancelar">Pulsa Cancelar o Aceptar para salir</string>
+    <string name="pantalla_horizontal">Pantalla horizontal</string>
+    <string name="politica_privacidad">Política de privacidad</string>
+    <string name="por_eso_ahora_hay">. Por eso ahora hay</string>
+    <string name="presiona_atras_para_salir">Presiona botón atrás para salir</string>
+    <string name="presiona_rectificar_aun_no_seleccionaste_nada">No existen cantidades</string>
+    <string name="pueden_subir">Pueden Subir</string>
+    <string name="reduccion_de_aforo">Configura el Aforo</string>
+    <string name="reducir_aforo">Reducir el Aforo</string>
+    <string name="reset_maquina_item_menu_contextual">Reset Billetes Máquina</string>
+    <string name="reset_viajeros_actuales_item_menu_contextual">Reset Viajeros Actuales</string>
+    <string name="se_han_sumado_los_viajeros_de_la_maquina">Se ha sumado correctamente el número de
+        viajeros en máquina a los anteriores viajeros</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="selecciona_cuantos_suben">Selecciona cuántos suben</string>
+    <string name="selecciona_una_cantidad">Selecciona una cantidad</string>
+    <string name="sentados_textview">Sentados</string>
+    <string name="si">Si</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="sube">sube %1$d</string>
+    <string name="suben">suben %1$d</string>
+    <string name="switch_mostrar_anterior_viaje">Mostrar viaje anterior</string>
+    <string name="texto_inicial_boton_aforo">Aforo de 93</string>
+    <string name="textview_icono_nuevo_viaje">Viaje</string>
+    <string name="titulo_alert_dialog_reset_maquina_explicacion">Resetearás billetes Máquina.\nNo
+        cambiará Viajeros Actuales</string>
+    <string name="titulo_alert_dialog_reset_viajeros_explicacion">Resetearás Viajeros Actuales.\nNo
+        cambiará Billetes Máquina</string>
+    <string name="titulo_alertdialog_nuevo_viaje_billetesmaquina_a_cero">Iniciará NUEVO VIAJE. Los
+        billetes de máquina serán cero.</string>
+    <string name="titulo_dialog_cada_tecla_es_una_cantidad">Cada tecla es una cantidad de viajeros</string>
+    <string name="titulo_dialogo_teclado_actualiza_billetes_maquina">Actualiza Billetes en Máquina
+    </string>
+    <string name="titulo_dialogo_teclado_billetes_maquina_tramo">Actualiza Billetes del Tramo
+    </string>
+    <string name="titulo_dialogo_teclado_reset_viajeros">Resetea número de Viajeros</string>
+    <string name="titulo_layout_ocupacion">Ocupación</string>
+    <string name="titulo_teclado_resetea_maquina">Resetea Billetes en Máquina</string>
+    <string name="titulo_tv_maximo_viajeros">máximo</string>
+    <string name="titulo_tv_ocupacion_actual">ahora</string>
+    <string name="titulo_tv_ocupacion_maxima">máxima</string>
+    <string name="tituo_cambio_tramo">Tramo</string>
+    <string name="toast_abort_reset">No se realizó ningún cambio</string>
+    <string name="toast_post_alert_dialog_no_actualizo_cantidad">No se actualizó la maquina ni los
+        viajeros</string>
+    <string name="toast_restablecimiento_exitoso">Restablecimiento exitoso</string>
+    <string name="total_de_aforo">Total Aforo:</string>
+    <string name="total_de_aforo_reducido">Total Aforo Reducido:</string>
+    <string name="total_suben_viaje">Total: %1$d</string>
+    <string name="total_viajeros_del_viaje_actual">Total de Viajeros en último viaje: %1$d</string>
+    <string name="total_viajeros_del_viaje_anterior">Total de Viajeros en viaje anterior: %1$d</string>
+    <string name="tv_porcenaje_ocu_actual">%1$d %%</string>
+    <string name="tv_porcenaje_ocu_max">%1$d %%</string>
+    <string name="tv_viaje_actual">ÚLTIMO VIAJE</string>
+    <string name="tv_viaje_anterior">VIAJE ANTERIOR</string>
+    <string name="viajeros">Viajeros</string>
+    <string name="viajeros_con_barra_s">viajero/s.</string>
+    <string name="viajeros_es_superior_al_aforo_alertdialog_warning">Esta cantidad de viajeros es
+        superior al aforo establecido</string>
+    <string name="viajeros_no_incluidos_en_maquina">viajero/s con billete manual.</string>
+    <string name="viajeros_sin_billete_revisa_billetes_y_vuelve_aqui">Tienes un total de\n   %1$d
+        billetes vendidos.\nSi restableces el número de viajeros a %2$d,\n   tendrás %3$d viajero/s
+    sin billete,\nque tendrá/n que bajar o pagar un billete.\n\n   Revisa el número total de billetes y
+        vuelve aquí si la cantidad de viajeros es igual o menor al total de billetes.</string>
+</resources>
