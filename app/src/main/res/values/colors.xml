@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_transparencia">#41FFFFFF</color>
+
+    <color name="gris_oscuro_fondo_progressbar">#434343</color>
+    <color name="gris_deseleccionado_icono">#FF6C6C6C</color>
+    <color name="gris_claro_fondo_progress_y_fondomenu">#AEAEAE</color>
+    <color name="gris_muy_claro">#DADADA</color>
+    <color name="gris_shape_fondo">#393838</color>
+    <color name="verde_seleccionado_icono">#8BC34A</color>
+    <color name="verde_texto_dialog_enfondoblanco">#008275</color>
+    <color name="verde_texto_dialog_enfondooscuro">#00BCD4</color>
+    <color name="azul_pueden_subir">#2196F3</color>
+    <color name="azul_oscuro_triangulo_abajo">#3F51B5</color>
+    <color name="azul_oscuro_bus_bajan_textview">#0f397c</color>
+    <color name="rojo_vivo">#F44336</color>
+    <color name="rojo_apagado">#D13A2F</color>
+    <color name="rojo_bus_billete_manual">#b40116</color>
+    <color name="ambar">#FFD403</color>
+    <color name="amarillo_claro_transparencia">#80FFEB3B</color>
+    <color name="azul_claro_transparencia">#8003A9F4</color>
+    <color name="rojo_apagado_transparencia_recycler_horapunta">#1AD13A2F</color>
+    <color name="azul_claro_transparencia_recycler_sin_horapunta">#1A03A9F4</color>
+    <color name="black_transparencia_50">#80000000</color>
+    <color name="rojo_apagado_transparencia_recycler_horapunta_kitkat">#FFD0D0</color>
+    <color name="azul_claro_transparencia_recycler_sin_horapunta_kitkat">#DAEAF1</color>
+
+    <!-- LISTA CAMBIOS -->
+    <color name="fondo_normal_item_listacambios_lollipop">#2703A9F4</color>
+    <color name="fondo_horapunta_item_listacambios_lollipop">#26D13A2F</color>
+    <color name="fondo_normal_item_listacambios_kitkat">#DAEAF1</color>
+    <color name="fondo_horapunta_item_listacambios_kitkat">#FFD0D0</color>
+
+</resources>

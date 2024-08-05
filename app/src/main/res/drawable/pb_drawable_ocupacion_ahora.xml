@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp"/>
+            <gradient android:angle="90"
+                android:startColor="@color/gris_oscuro_fondo_progressbar"
+                android:centerColor="@color/gris_claro_fondo_progress_y_fondomenu"
+                android:endColor="@color/gris_oscuro_fondo_progressbar"/>
+        </shape>
+    </item>
+
+    <item>
+
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="3dp"/>
+                <gradient android:angle="0"
+                    android:startColor="@color/verde_seleccionado_icono"
+                    android:centerColor="@color/ambar"
+                    android:endColor="@color/rojo_apagado"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

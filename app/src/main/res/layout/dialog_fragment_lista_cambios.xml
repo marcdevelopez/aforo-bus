@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_hora_24"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_billetes_general_listacambios_24"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_import_export"
+            app:tint="@color/black" />
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_viajeros_3_24"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_grafico_barras_24"
+            app:tint="@color/black" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="1.5dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_fondo_viajeactual_listacambios"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_tv_viaje_actual"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/tv_viaje_actual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="start"
+                android:gravity="start"
+                android:singleLine="true"
+                android:text="@string/tv_viaje_actual"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_contenedor_recycler_actual"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lista_cambios_recyclerview_viaje_actual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_tv_total_viaje_actual"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/tv_total_viajeros_actual_viaje"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:ellipsize="start"
+                android:gravity="end"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1.5dp"
+        android:layout_marginEnd="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_fondo_viajeanterior_listacambios"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_tv_viaje_anterior"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/tv_viaje_anterior"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="start"
+                android:gravity="start"
+                android:singleLine="true"
+                android:text="@string/tv_viaje_anterior"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_contenedor_viaje_anterior"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lista_cambios_recyclerview_viaje_anterior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_tv_total_viaje_anterior"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/tv_total_viajeros_anterior_viaje"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:ellipsize="start"
+                android:gravity="end"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Switch
+        android:id="@+id/switch_mostrar_anterior_viaje"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:layout_gravity="start"
+        android:switchPadding="10dp"
+        android:text="@string/switch_mostrar_anterior_viaje"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

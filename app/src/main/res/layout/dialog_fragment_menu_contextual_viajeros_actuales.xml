@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- aqui se ira añadiendo mas opciones -->
+
+    <TextView
+        android:id="@+id/tv_reset_viajeros_actuales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_relleno_purpura_textview_menu_contextual"
+        android:paddingLeft="15dp"
+        android:paddingTop="7dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="7dp"
+        android:text="@string/reset_viajeros_actuales_item_menu_contextual"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

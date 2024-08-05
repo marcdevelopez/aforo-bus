@@ -1,0 +1,18 @@
+05-07 20:16:31.727  6222  6292 I TestRunner: started: useAppContext(com.mundobinario.miaforobus.ExampleInstrumentedTest)
+05-07 20:16:31.733  1822  5954 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+05-07 20:16:31.739  1822  6262 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-07 20:16:31.739  1822  6262 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-07 20:16:31.745  1822  6262 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+05-07 20:16:31.746  1822  6262 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-07 20:16:31.746  1822  6075 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-07 20:16:31.748  1822  6260 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+05-07 20:16:31.752  1822  6162 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-07 20:16:31.753  1822  6175 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-07 20:16:31.756  1822  6175 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+05-07 20:16:31.760  1822  5949 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-07 20:16:31.761  1822  6187 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-07 20:16:31.806  1187  5964 I PTCommittedOperation: Receive new configuration for com.google.android.gms.feedback
+05-07 20:16:31.809  1822  6262 I ChromeSync: [Sync,SyncIntentOperation] Handling the intent: Intent { act=com.google.android.gms.phenotype.COMMITTED flg=0x10 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.GmsIntentOperationService (has extras) }.
+05-07 20:16:31.817  1822  6261 I MdiSyncModule: flag handling is skipping irrelevant intent.
+05-07 20:16:31.818  1822  6261 W ModuleInitIntentOp: Dropping unexpected action com.google.android.gms.phenotype.COMMITTED
+05-07 20:16:31.835  6222  6292 I TestRunner: finished: useAppContext(com.mundobinario.miaforobus.ExampleInstrumentedTest)

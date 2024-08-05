@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:2:1-29:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\cosma\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cosma\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\61ccb90159fe9b692117cd984c53eaed\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\78bd3bb768aab85adbc69a8f1787f515\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\6e25cff9cf0429a5cdc29a585d8f59bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\022316015dcc5b40cdeec3a9553a09b8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\d16dc1364497823f5aae30a04d57f4a8\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3d320ac7c682e9c6673cf1cdf57b5fec\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\78617eef17cb8d930b0d3c4952977d61\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\ee55d4a7f371e60c36a3611b55495ea0\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\ae98e65e720edd0964e432ca91ff131a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\9853aee1f7496b00da3a1e7e03db31c3\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\c78d82e0fd15bb36f02a717d4e0de573\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\c67077fb9bcd97d81f7fd7b65fa44cb0\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\bcc4d444a2a734be677763ff6c7449ae\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\b624365659dd3aafc372923056d5f712\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\0f3122d9d2e5e8dc23576e8fe6033800\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\dcc8beb9f2c494ae723dfd28071e5f75\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3ec8c36bdcb6d9403af1451c6cbbbdc9\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\c899839ac7c9a6e56f43a8e981b56837\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\6599d443ec9fcad2fe1ecf661bc29826\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\72ac7939cfac6baaf3ca938ea0e25983\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\abb34f9fbf005b235233f71116183e03\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\1bdaded5dc27734a14ead6f4714c9a16\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\00e770c4d3af567ad5466675c647124f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\cosma\.gradle\caches\transforms-3\c08bdde3813955972d27ff7efc82ea0b\transformed\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\443d791ccfedee7b913a14fec168e253\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\33f9ae11ef56155b3b2832fb42f4eaf0\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3d59831955753d61d5825790ec111d5d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\fbdb7653fe9386c61e41e900aed73803\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\ad279b5b1283f10e8f1680c3c041704b\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\cosma\.gradle\caches\transforms-3\52abe21795f032ccfb0d212631a0ac77\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\cosma\.gradle\caches\transforms-3\e43d6bb26a64633f59d66915fadb0bb4\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\d0167fe75ebf63b3032df1232f8627eb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\12da910a578e381d4aa9b9bf4d7c3da0\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\910aaa30dece4ed29046180756d12f43\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\f103b902654e0b9db37925453467346f\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\cdb0897ab618fcb06431f93a248397f3\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+	package
+		INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:3:5-45
+application
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\cosma\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\cosma\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cosma\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cosma\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] C:\Users\cosma\.gradle\caches\transforms-3\c08bdde3813955972d27ff7efc82ea0b\transformed\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\cosma\.gradle\caches\transforms-3\c08bdde3813955972d27ff7efc82ea0b\transformed\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\443d791ccfedee7b913a14fec168e253\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\443d791ccfedee7b913a14fec168e253\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\cosma\.gradle\caches\transforms-3\c08bdde3813955972d27ff7efc82ea0b\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:11:9-48
+activity#com.mundobinario.miaforobus.MainActivity
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:exported
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.mundobinario.miaforobus.SubenManualActivity
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:21:9-22:50
+	android:name
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:22:13-48
+activity#com.mundobinario.miaforobus.BajanActivity
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:23:9-24:44
+	android:name
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:24:13-42
+activity#com.mundobinario.miaforobus.CalculoReduccionAforo
+ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:25:9-26:52
+	android:name
+		ADDED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml:26:13-50
+uses-sdk
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\cosma\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\cosma\.gradle\caches\transforms-3\7eb9d7272be80e269ba2586219fcf135\transformed\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cosma\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\cosma\.gradle\caches\transforms-3\c632d8d02146572ff656b1856f1cbefd\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\61ccb90159fe9b692117cd984c53eaed\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\61ccb90159fe9b692117cd984c53eaed\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\78bd3bb768aab85adbc69a8f1787f515\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\78bd3bb768aab85adbc69a8f1787f515\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\6e25cff9cf0429a5cdc29a585d8f59bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\6e25cff9cf0429a5cdc29a585d8f59bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\022316015dcc5b40cdeec3a9553a09b8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\022316015dcc5b40cdeec3a9553a09b8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\d16dc1364497823f5aae30a04d57f4a8\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\d16dc1364497823f5aae30a04d57f4a8\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3d320ac7c682e9c6673cf1cdf57b5fec\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3d320ac7c682e9c6673cf1cdf57b5fec\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\78617eef17cb8d930b0d3c4952977d61\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\78617eef17cb8d930b0d3c4952977d61\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\ee55d4a7f371e60c36a3611b55495ea0\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\ee55d4a7f371e60c36a3611b55495ea0\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\ae98e65e720edd0964e432ca91ff131a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\ae98e65e720edd0964e432ca91ff131a\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\9853aee1f7496b00da3a1e7e03db31c3\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\9853aee1f7496b00da3a1e7e03db31c3\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\c78d82e0fd15bb36f02a717d4e0de573\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\c78d82e0fd15bb36f02a717d4e0de573\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\c67077fb9bcd97d81f7fd7b65fa44cb0\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\cosma\.gradle\caches\transforms-3\c67077fb9bcd97d81f7fd7b65fa44cb0\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\bcc4d444a2a734be677763ff6c7449ae\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\bcc4d444a2a734be677763ff6c7449ae\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\b624365659dd3aafc372923056d5f712\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\b624365659dd3aafc372923056d5f712\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\0f3122d9d2e5e8dc23576e8fe6033800\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\0f3122d9d2e5e8dc23576e8fe6033800\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\dcc8beb9f2c494ae723dfd28071e5f75\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\dcc8beb9f2c494ae723dfd28071e5f75\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3ec8c36bdcb6d9403af1451c6cbbbdc9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3ec8c36bdcb6d9403af1451c6cbbbdc9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\c899839ac7c9a6e56f43a8e981b56837\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\c899839ac7c9a6e56f43a8e981b56837\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\6599d443ec9fcad2fe1ecf661bc29826\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\6599d443ec9fcad2fe1ecf661bc29826\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\72ac7939cfac6baaf3ca938ea0e25983\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\72ac7939cfac6baaf3ca938ea0e25983\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\abb34f9fbf005b235233f71116183e03\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\abb34f9fbf005b235233f71116183e03\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\1bdaded5dc27734a14ead6f4714c9a16\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\1bdaded5dc27734a14ead6f4714c9a16\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\00e770c4d3af567ad5466675c647124f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\00e770c4d3af567ad5466675c647124f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\cosma\.gradle\caches\transforms-3\c08bdde3813955972d27ff7efc82ea0b\transformed\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\cosma\.gradle\caches\transforms-3\c08bdde3813955972d27ff7efc82ea0b\transformed\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\443d791ccfedee7b913a14fec168e253\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\cosma\.gradle\caches\transforms-3\443d791ccfedee7b913a14fec168e253\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\33f9ae11ef56155b3b2832fb42f4eaf0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\33f9ae11ef56155b3b2832fb42f4eaf0\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3d59831955753d61d5825790ec111d5d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\3d59831955753d61d5825790ec111d5d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\fbdb7653fe9386c61e41e900aed73803\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\fbdb7653fe9386c61e41e900aed73803\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\ad279b5b1283f10e8f1680c3c041704b\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\ad279b5b1283f10e8f1680c3c041704b\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\cosma\.gradle\caches\transforms-3\52abe21795f032ccfb0d212631a0ac77\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\cosma\.gradle\caches\transforms-3\52abe21795f032ccfb0d212631a0ac77\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\cosma\.gradle\caches\transforms-3\e43d6bb26a64633f59d66915fadb0bb4\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\cosma\.gradle\caches\transforms-3\e43d6bb26a64633f59d66915fadb0bb4\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\d0167fe75ebf63b3032df1232f8627eb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\d0167fe75ebf63b3032df1232f8627eb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\12da910a578e381d4aa9b9bf4d7c3da0\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\12da910a578e381d4aa9b9bf4d7c3da0\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\910aaa30dece4ed29046180756d12f43\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\910aaa30dece4ed29046180756d12f43\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\f103b902654e0b9db37925453467346f\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\cosma\.gradle\caches\transforms-3\f103b902654e0b9db37925453467346f\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\cdb0897ab618fcb06431f93a248397f3\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\cosma\.gradle\caches\transforms-3\cdb0897ab618fcb06431f93a248397f3\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\cosma\MEGA\PROYECTOS-NO-TOCAR-NI-MOVER\MiAforoBus\app\src\main\AndroidManifest.xml

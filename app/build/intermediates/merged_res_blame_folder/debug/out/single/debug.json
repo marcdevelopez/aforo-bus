@@ -1,0 +1,550 @@
+[
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_grafico_barras_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_grafico_barras_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_deshacer_inactivo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_deshacer_inactivo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_land_decrece_hacia_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/land_decrece_hacia_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_icono_info.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/icono_info.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-land_activity_suben_manual.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-land/activity_suben_manual.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_azul_sentado_marco_reduccion_aforo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_azul_sentado_marco_reduccion_aforo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_mas_azul_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_mas_azul_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_viajeactual_listacambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_viajeactual_listacambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_rectificar_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_rectificar_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_decrece_hacia_tramo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/decrece_hacia_tramo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_billete_maquina_lista_cambios_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_billete_maquina_lista_cambios_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_relleno_blanco_fondo_placa_aforo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_relleno_blanco_fondo_placa_aforo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_import_export.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_import_export.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_relleno_textview_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_relleno_textview_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_boton_puertas_cierre.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/boton_puertas_cierre.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_molde_triangulo_abajo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_molde_triangulo_abajo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_triangulo_abajo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_triangulo_abajo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_sin_maquina_seleccionado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_sin_maquina_seleccionado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_land_decrece_hacia_viajeros_actuales.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/land_decrece_hacia_viajeros_actuales.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_relleno_gris_stroke_azul_textview_totalbajan.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_relleno_gris_stroke_azul_textview_totalbajan.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_stroke_gris_botones_subenbajan.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_stroke_gris_botones_subenbajan.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_pb_drawable_ocupacion_maxima.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/pb_drawable_ocupacion_maxima.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_avisos_rojo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_avisos_rojo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_dialog_fragment_lista_cambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/dialog_fragment_lista_cambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_teclas_teclado_purpura.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_teclas_teclado_purpura.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_sevaporla_der.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/sevaporla_der.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_dialog_fragment_teclado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/dialog_fragment_teclado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_viajeros_listacambios_negro_rojo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_viajeros_listacambios_negro_rojo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_decrece_hacia_viajeros_actuales.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/decrece_hacia_viajeros_actuales.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_activity_suben_manual.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/activity_suben_manual.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_crece_desde_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/crece_desde_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_sevapor_arriba.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/sevapor_arriba.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_sin_fondo_marco_reduccion_aforo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_sin_fondo_marco_reduccion_aforo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_crece_desde_tramo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/crece_desde_tramo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_atras.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_atras.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_group_remove_blanco.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_group_remove_blanco.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_viajeros_listacambios_negro_verde.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_viajeros_listacambios_negro_verde.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_group_remove_rojo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_group_remove_rojo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_person_remove.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_person_remove.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_viajeros_3_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_viajeros_3_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_aparece_desde_alpha_cero.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/aparece_desde_alpha_cero.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_menu.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_negro_transparencia_maxima_para_fondo_claro.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_negro_transparencia_maxima_para_fondo_claro.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-land_activity_bajan.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-land/activity_bajan.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_warning_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_warning_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/font_digital_display_tfb.ttf.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/font/digital_display_tfb.ttf"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_icono_suben_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_icono_suben_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_land_decrece_hacia_tramo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/land_decrece_hacia_tramo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_land_crece_desde_tramo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/land_crece_desde_tramo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-v21_dialog_fragment_teclado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-v21/dialog_fragment_teclado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_menos_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_menos_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_activity_main.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-land_activity_calculo_reduccion_aforo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-land/activity_calculo_reduccion_aforo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_viajero_sube_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_viajero_sube_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-land_activity_main.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_maquina_hay_mas_billetes.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_maquina_hay_mas_billetes.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_sentados.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/sentados.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_entraporla_izq.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/entraporla_izq.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_triangulo_arriba.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_triangulo_arriba.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_molde_triangulo_arriba.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_molde_triangulo_arriba.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_en_pie.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/en_pie.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_relleno_gris_stroke_rojo_textview_manual.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_relleno_gris_stroke_rojo_textview_manual.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_info_azul_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_info_azul_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_con_billete_listacambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_con_billete_listacambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_tecla_kitkat.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_tecla_kitkat.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_rojo_puerta_suben.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_rojo_puerta_suben.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_viaje.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_viaje.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_lista_cambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_lista_cambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_hora_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_hora_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-land_dialog_fragment_teclado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-land/dialog_fragment_teclado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_iconos_manejador.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_iconos_manejador.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_sevaporla_izq.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/sevaporla_izq.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_dialog_fragment_menu.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/dialog_fragment_menu.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_deshacer_activo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_deshacer_activo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_fondo_tecla_negra.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/fondo_tecla_negra.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/raw_readme.txt.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/raw/readme.txt"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_negro_transparencia_simula_lejania.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_negro_transparencia_simula_lejania.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_entraporla_der.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/entraporla_der.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_boton_bajan.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/boton_bajan.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_item_lista_cambio_recyclerview.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/item_lista_cambio_recyclerview.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_sin_maquina_hay_mas_billetes.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_sin_maquina_hay_mas_billetes.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_icono_warning.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/icono_warning.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_maquina_seleccionado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_maquina_seleccionado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_llave_inglesa_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_llave_inglesa_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_screen_rotation.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_screen_rotation.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_entrapor_abajo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/entrapor_abajo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_crece_desde_viajeros_actuales.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/crece_desde_viajeros_actuales.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_billete_sin_maquina_lista_cambios_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_billete_sin_maquina_lista_cambios_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout-land_dialog_fragment_teclado_v21.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout-land/dialog_fragment_teclado_v21.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_switch_item.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/switch_item.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondoblanco_strokenegro_movimiento_listacambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondoblanco_strokenegro_movimiento_listacambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_crece_desde_historicoviaje.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/crece_desde_historicoviaje.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_decrece_hacia_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/decrece_hacia_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_decrece_hacia_historicoviaje.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/decrece_hacia_historicoviaje.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_activity_calculo_reduccion_aforo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/activity_calculo_reduccion_aforo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_tramo_deseleccionado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_tramo_deseleccionado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_en_pie_marco_reduccion_aforo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_en_pie_marco_reduccion_aforo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_pb_drawable_ocupacion_ahora.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/pb_drawable_ocupacion_ahora.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_sin_maquina_deseleccionado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_sin_maquina_deseleccionado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_boton_suben_manual.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_boton_suben_manual.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_sevapor_abajo.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/sevapor_abajo.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_maquina_deseleccionado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_maquina_deseleccionado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_dialog_fragment_menu_contextual_viajeros_actuales.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/dialog_fragment_menu_contextual_viajeros_actuales.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_relleno_purpura_textview_menu_contextual.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_relleno_purpura_textview_menu_contextual.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_tramo_seleccionado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_tramo_seleccionado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_activity_bajan.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/activity_bajan.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_transparencia.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/transparencia.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_billetes_general_listacambios_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_billetes_general_listacambios_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_entrapor_arriba.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/entrapor_arriba.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_dialog_fragment_menu_contextual_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/dialog_fragment_menu_contextual_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_mas_rojo_24.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_mas_rojo_24.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_group_add_azul.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_group_add_azul.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_viajeanterior_listacambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_viajeanterior_listacambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/layout_dialog_fragment_politicas.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/layout/dialog_fragment_politicas.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_land_crece_desde_maquina.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/land_crece_desde_maquina.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_animacion_teclas_bajan_suben_manual.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/animacion_teclas_bajan_suben_manual.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_sin_billete_listacambios.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_sin_billete_listacambios.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_ic_group_add_blanco.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/ic_group_add_blanco.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_decrece_y_crece_tecla_teclado.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/decrece_y_crece_tecla_teclado.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_stroke_lila_contorno_separador_views.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_stroke_lila_contorno_separador_views.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_land_crece_desde_viajeros_actuales.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/land_crece_desde_viajeros_actuales.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/anim_desaparece_hacia_alpha_cero.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/anim/desaparece_hacia_alpha_cero.xml"
+    },
+    {
+        "merged": "com.mundobinario.miaforobus.app-merged_res-15:/drawable_shape_fondo_viajeros_listacambios_negro_ambar.xml.flat",
+        "source": "com.mundobinario.miaforobus.app-main-17:/drawable/shape_fondo_viajeros_listacambios_negro_ambar.xml"
+    }
+]

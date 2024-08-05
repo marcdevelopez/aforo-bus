@@ -1,0 +1,4 @@
+com.mundobinario.miaforobus.test.app-androidTest-0 /home/marcos/MEGA/PROYECTOS-NO-TOCAR-NI-MOVER/MiAforoBus/app/build/generated/res/resValues/androidTest/debug
+com.mundobinario.miaforobus.test.app-mergeDebugAndroidTestResources-1 /home/marcos/MEGA/PROYECTOS-NO-TOCAR-NI-MOVER/MiAforoBus/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.mundobinario.miaforobus.test.app-mergeDebugAndroidTestResources-2 /home/marcos/MEGA/PROYECTOS-NO-TOCAR-NI-MOVER/MiAforoBus/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.mundobinario.miaforobus.test.app-merged_res-3 /home/marcos/MEGA/PROYECTOS-NO-TOCAR-NI-MOVER/MiAforoBus/app/build/intermediates/merged_res/debugAndroidTest

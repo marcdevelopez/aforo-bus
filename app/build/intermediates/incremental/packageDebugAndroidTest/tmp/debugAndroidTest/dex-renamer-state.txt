@@ -1,0 +1,4 @@
+#Sat Jul 29 21:40:58 CEST 2023
+base.0=/home/marcos/MEGA/PROYECTOS-NO-TOCAR-NI-MOVER/MiAforoBus/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
